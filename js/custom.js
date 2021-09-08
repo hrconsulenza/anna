@@ -31,7 +31,7 @@ $(function (){
 
     //smooth button scroll
     $('.button-scroll').on('click', function(){
-      
+
         var scrollTo = $(this).attr('data-scrollTo');
 
         $('body, html').animate({
@@ -44,7 +44,7 @@ $(function (){
 
     // typejs
     $('header .caption h2').typed({
-        strings: ["A WEB DESIGNER","UI/UX  DEVELOPER"],
+        strings: ["A HR CONSULTANT"," A HR RECRUITER"],
         loop: true,
         startDelay: 1000,
         backDelay: 2000
@@ -54,9 +54,9 @@ $(function (){
     // progress bar
     wind.on('scroll', function () {
         $(".skills-progress span").each(function () {
-            var bottom_of_object = 
+            var bottom_of_object =
             $(this).offset().top + $(this).outerHeight();
-            var bottom_of_window = 
+            var bottom_of_window =
             $(window).scrollTop() + $(window).height();
             var myVal = $(this).attr('data-value');
             if(bottom_of_window > bottom_of_object) {
