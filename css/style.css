@@ -21,13 +21,13 @@ TABLE OF CONTENTS
 			- posts
 			- side-bar
 		+ Single-post Page
-		
+
 */
 
 @import "main.css";
 
 /* -------------------------------------------------------
-                     Global 
+                     Global
 -------------------------------------------------------- */
 
 body{
@@ -93,7 +93,7 @@ a, a:hover, a:focus{
 }
 
 /* -------------------------------------------------------
-                     Navbar 
+                     Navbar
 -------------------------------------------------------- */
 
 .navbar-default{
@@ -157,7 +157,7 @@ a, a:hover, a:focus{
 -------------------------------------------------------- */
 
 .tona-header{
-	background: url(../img/bg.jpg);
+	background: url(../img/bg.webp);
 	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -376,7 +376,7 @@ a, a:hover, a:focus{
 .clients{
 	background-blend-mode: overlay;
 	background: rgba(0,0,0,.8);
-	background-image: url(../img/client-bg.jpg);
+	background-image: url(../img/client-bg.webp);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -681,7 +681,7 @@ a, a:hover, a:focus{
 }
 
 /* -------------------------------------------------------
-                     Particle Demo 
+                     Particle Demo
 -------------------------------------------------------- */
 
 .particle{
@@ -707,7 +707,7 @@ a, a:hover, a:focus{
 }
 
 /* -------------------------------------------------------
-                     Video Demo 
+                     Video Demo
 -------------------------------------------------------- */
 
 .bg-video{
@@ -731,14 +731,14 @@ a, a:hover, a:focus{
 }
 
 /* -------------------------------------------------------
-                     Blog Page 
+                     Blog Page
 -------------------------------------------------------- */
 
 /* ----- Header ----- */
 
 .tona-blog{
 	height: 70vh;
-	background-image: url(../img/blog/bg.jpg);
+	background-image: url(../img/blog/bg.webp);
 	background-size: cover;
 	position: relative;
 }
@@ -933,7 +933,7 @@ a, a:hover, a:focus{
 }
 
 /* -------------------------------------------------------
-                     Single-post Page 
+                     Single-post Page
 -------------------------------------------------------- */
 
 .rel-post{
